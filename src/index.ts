@@ -7,4 +7,4 @@ export {
   cmykToRgb,
   rgbToHsv,
   hsvToRgb
-} from "./huex";
+} from "./huexjs";

@@ -1,25 +1,36 @@
-# 🌈 huex – The Ultimate Color Converter Library 🎨  
+# 🌈 huexjs – The Ultimate Color Converter Library 🎨
 
-**huex** is a lightweight and efficient TypeScript library for seamless color conversions. Easily convert colors between HEX, RGB, HSL, CMYK, and HSV with precision. Designed for developers who need a reliable and fast solution for color transformations in web applications.  
+**huexjs** is a lightweight and efficient TypeScript library for seamless color conversions. Easily convert colors between HEX, RGB, HSL, CMYK, and HSV with precision. Designed for developers who need a reliable and fast solution for color transformations in web applications.
 
-## ✨ Features  
-- Convert between **HEX, RGB, HSL, CMYK, and HSV** formats  
-- Lightweight and **zero dependencies**  
-- Supports **TypeScript** for strong type safety  
-- Works in **Node.js and browsers**  
+## ✨ Features
 
-## 📦 Installation  
+- Convert between **HEX, RGB, HSL, CMYK, and HSV** formats
+- Lightweight and **zero dependencies**
+- Supports **TypeScript** for strong type safety
+- Works in **Node.js and browsers**
+
+## 📦 Installation
+
 ```sh
-npm install huex
+npm install huexjs
 ```
 
 ## 🚀 Usage
 
 ```javascript
-import { hexToRgb, rgbToHex, rgbToHsl, hslToRgb, rgbToCmyk, cmykToRgb, rgbToHsv, hsvToRgb } from 'huex';
+import {
+  hexToRgb,
+  rgbToHex,
+  rgbToHsl,
+  hslToRgb,
+  rgbToCmyk,
+  cmykToRgb,
+  rgbToHsv,
+  hsvToRgb
+} from "huexjs";
 
 // Convert HEX to RGB
-console.log(hexToRgb('#ff5733')); // { r: 255, g: 87, b: 51 }
+console.log(hexToRgb("#ff5733")); // { r: 255, g: 87, b: 51 }
 
 // Convert RGB to HEX
 console.log(rgbToHex({ r: 255, g: 87, b: 51 })); // #FF5733
@@ -47,4 +58,4 @@ console.log(hsvToRgb({ h: 11, s: 80, v: 100 })); // { r: 255, g: 87, b: 51 }
 
 MIT License
 
-> 🔥 **huex** – Simplify color conversions in your projects!
+> 🔥 **huexjs** – Simplify color conversions in your projects!

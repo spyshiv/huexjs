@@ -2,8 +2,8 @@
   "name": "huexjs",
   "version": "1.0.0",
   "description": "huexjs is a lightweight and efficient JavaScript library for seamless color conversions. Convert colors between HEX, RGB, HSL, CMYK, and more with ease. Designed for developers who need a reliable and fast solution for color transformations in web applications.",
-  "main": "./dist/huex.umd.js",
-  "module": "./dist/huex.es.js",
+  "main": "./dist/huexjs.umd.js",
+  "module": "./dist/huexjs.es.js",
   "files": [
     "dist"
   ],
@@ -39,10 +39,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spyshiv/huex.git"
+    "url": "git+https://github.com/spyshiv/huexjs.git"
   },
   "bugs": {
-    "url": "https://github.com/spyshiv/huex/issues"
+    "url": "https://github.com/spyshiv/huexjs/issues"
   },
-  "homepage": "https://github.com/spyshiv/huex#readme"
+  "homepage": "https://github.com/spyshiv/huexjs#readme"
 }
