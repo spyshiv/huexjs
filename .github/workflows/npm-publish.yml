@@ -24,6 +24,7 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org/
+      - run: npm ci
       - run: npm run build # Added build step before publishing
       - run: npm publish
         env:
