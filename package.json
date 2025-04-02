@@ -1,0 +1,48 @@
+{
+  "name": "huex",
+  "version": "1.0.0",
+  "description": "huex is a lightweight and efficient JavaScript library for seamless color conversions. Convert colors between HEX, RGB, HSL, CMYK, and more with ease. Designed for developers who need a reliable and fast solution for color transformations in web applications.",
+  "main": "./dist/huex.umd.js",
+  "module": "./dist/huex.es.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.17",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.4"
+  },
+  "keywords": [
+    "color",
+    "converter",
+    "hex",
+    "rgb",
+    "hsl",
+    "hsv",
+    "cmyk",
+    "color-conversion",
+    "typescript",
+    "javascript",
+    "color-utils",
+    "color-library",
+    "web-development",
+    "frontend",
+    "design",
+    "graphics"
+  ],
+  "author": "Shiv Baran Singh <spyshiv@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spyshiv/huex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spyshiv/huex/issues"
+  },
+  "homepage": "https://github.com/spyshiv/huex#readme"
+}
